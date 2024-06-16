@@ -46,7 +46,7 @@ function MyNavbar() {
         h="72px"
         radius="60px"
       >
-        <Container size="lg" style={{ justifyContent: "space-between" }}>
+        <Container size="lg" style={{ justifyContent: "space-between" }} ml="1rem">
           <Group>
             <Link href="/" passHref>
               <Image
@@ -59,7 +59,7 @@ function MyNavbar() {
           </Group>
         </Container>
         <Container visibleFrom="lg">
-          <Group style={{gap:"20px"}}>
+          <Group style={{gap:"20px"}} ml = "3rem">
             <Text size="lg">
               Products
               <RiArrowDropDownLine />
@@ -84,7 +84,7 @@ function MyNavbar() {
                   </Text>
                 </HoverCard.Target>
                 <HoverCard.Dropdown
-                  w="100%"
+                  w="70%"
                   p="50px 50px"
                   mt="30px"
                   style={{
@@ -147,7 +147,7 @@ function MyNavbar() {
           </Group>
         </Container>
         <Container>
-          <Group style={{gap:"20px"}}>
+          <Group style={{gap:"20px"}} mr="-6rem">
             <Text visibleFrom="lg">Book A Demo</Text>
             <Button
               variant="light"

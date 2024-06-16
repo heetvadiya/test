@@ -25,6 +25,7 @@ function Demo() {
         lts="-0px"
         mt="100px"
         w='95%'
+        font-sarif
       >
         GREAT VIDEOS START WITH A PLAN
       </Title>
