@@ -1,0 +1,6 @@
+.fonts{
+    font-size: 60px;
+    @media (max-width: 750px){
+        font-size: 30px;
+      }
+}
