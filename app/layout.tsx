@@ -5,8 +5,8 @@ import '@mantine/core/styles.css';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 
 export const metadata = {
-  title: 'Pricing - VEED.io',
-  description: 'I have followed setup instructions carefully',
+  title: 'Assignment by HeetVadiya',
+  description: 'Please Bear with the fonts , i could not find the exact font family',
 };
 
 export default function RootLayout({
